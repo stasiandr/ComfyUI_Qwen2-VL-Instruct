@@ -90,7 +90,7 @@ class VideoLoader:
 
     CATEGORY = "Comfyui_Qwen2-VL-Instruct"
 
-    RETURN_TYPES = ("PATH")
+    RETURN_TYPES = ("PATH",)
     FUNCTION = "load_image"
     def load_image(self, image):
         image_path = folder_paths.get_annotated_filepath(image)
